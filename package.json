@@ -1,0 +1,59 @@
+{
+  "name": "electron-vite-react",
+  "version": "0.0.1",
+  "main": "dist-electron/main/index.js",
+  "description": "Electron Vite React boilerplate.",
+  "author": "草鞋没号 <308487730@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:7777/"
+    }
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"npm run dev\"",
+    "start2": "concurrently \"npm run dev\" \"npm run server\"",
+    "dev": "vite --port 7777",
+    "build": "tsc && vite build && electron-builder",
+    "preview": "vite preview",
+    "pretest": "vite build --mode=test",
+    "test": "vitest run",
+    "node": "node server.js",
+    "server": "json-server --watch ./public/db.json -p 5555"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.6.1",
+    "antd": "^5.24.1",
+    "antd-style": "^3.7.1",
+    "electron-db": "^0.15.7",
+    "electron-is-dev": "^3.0.1",
+    "node-ipc": "^9.1.1",
+    "uuid": "^3.3.2",
+    "electron-updater": "^6.3.9",
+    "json-server": "^0.17.4",
+    "node-sass": "^9.0.0",
+    "sass": "^1.85.0",
+    "use-debounce": "^10.0.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "electron": "^33.2.0",
+    "electron-builder": "^24.13.3",
+    "postcss": "^8.4.49",
+    "postcss-import": "^16.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.2",
+    "vite": "^5.4.11",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6",
+    "vitest": "^2.1.5"
+  }
+}

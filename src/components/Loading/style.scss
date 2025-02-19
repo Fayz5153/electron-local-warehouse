@@ -1,0 +1,26 @@
+.loadingScreen{
+  position: fixed;
+  z-index: 100000;
+  width: 100vw;
+  height: 100vh;
+  background: #2d48ab33;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ant-spin{
+    transform: scale(2);
+  }
+}
+.full_bg{
+  background: white;
+}
+.darkMode{
+  .full_bg{
+    background: #1B2431;
+  }
+}
+.no_load{
+  transform: scale(0);
+}

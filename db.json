@@ -1,0 +1,100 @@
+{
+  "materials": [
+    {
+      "id": "fdbe",
+      "name": "Molfix 1",
+      "type": "Pampers",
+      "quantity": 11
+    },
+    {
+      "id": "afd5",
+      "name": "smile Baby",
+      "type": "Pampers",
+      "quantity": "11"
+    },
+    {
+      "id": "4ab4",
+      "name": "Mono",
+      "type": "Pampers",
+      "quantity": "1"
+    },
+    {
+      "name": "Exite",
+      "type": "Atirlar",
+      "quantity": "100",
+      "id": "ZwieXk_"
+    },
+    {
+      "name": "aa1",
+      "type": "Pampers",
+      "quantity": "12",
+      "id": "EMxZZQj"
+    },
+    {
+      "name": "asdqaw ",
+      "type": "Atirlar",
+      "quantity": "1231",
+      "id": "ns7Rja9"
+    },
+    {
+      "name": "asrdfvd",
+      "type": "Pampers",
+      "quantity": "22",
+      "id": "oYbkli0"
+    },
+    {
+      "name": "32sdf3",
+      "type": "Salfetka",
+      "quantity": "12",
+      "id": "wMH0jsR"
+    },
+    {
+      "name": "asdafdsfs",
+      "type": "Salfetka",
+      "quantity": "11",
+      "id": "WfutGOA"
+    },
+    {
+      "name": "tttttteeee",
+      "type": "Pampers",
+      "quantity": "10",
+      "id": "e4URHzx"
+    },
+    {
+      "name": "hghghg",
+      "type": "Pampers",
+      "quantity": "22",
+      "id": "nZ_Vu0q"
+    },
+    {
+      "name": "aqqqqaasda",
+      "type": "Salfetka",
+      "quantity": "4",
+      "id": "5MhuCKY"
+    },
+    {
+      "name": "памперс",
+      "type": "Pampers",
+      "quantity": "1",
+      "id": "FZVEZkM"
+    }
+  ],
+  "type": [
+    {
+      "name": "Salfetka",
+      "id": "Y6Vbg7m"
+    },
+    {
+      "name": "Pampers",
+      "id": "O0UZhRD"
+    },
+    {
+      "name": "Atirlar",
+      "id": "oOnUzMc"
+    },
+    {
+      "name": "asas",
+      "id": "WS3lY_n"
+    }
+  ]
+}
