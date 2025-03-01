@@ -30,7 +30,7 @@
     "electron-db": "^0.15.7",
     "electron-is-dev": "^3.0.1",
     "node-ipc": "^9.1.1",
-    "uuid": "^3.3.2",
+    "uuid": "^11.1.0",
     "electron-updater": "^6.3.9",
     "json-server": "^0.17.4",
     "node-sass": "^9.0.0",
